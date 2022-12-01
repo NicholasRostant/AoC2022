@@ -1,7 +1,7 @@
 # Day 1 solutions
 
 # Grab input from file
-with open("input", "r") as f:
+with open("input.txt", "r") as f:
     input = [line for line in f]
 
 elves = []  # Series of summaries for each elf
