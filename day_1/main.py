@@ -1,22 +1,25 @@
-with open('input', 'r') as f:
+# Day 1 solutions
+
+# Grab input from file
+with open("input", "r") as f:
     input = [line for line in f]
 
-elves = []
-temp = []
+elves = []  # Series of summaries for each elf
+temp = []  # Temporary place to construct each elf summary
 for line in input:
-    if line == '\n':
+    if line == "\n":  # Split on empty lines
         elves.append(temp)
         temp = []
     else:
         temp.append(line.strip())
 
-
-max = []
+totals = []
 for elf in elves:
-    tally = sum(map(lambda x: int(x), elf))
-    max.append(tally)
+    elf_total = sum(map(lambda x: int(x), elf))
+    totals.append(elf_total)
 
-max = sorted(max)
 
-print(f'Star 1:{max[-1]}')
-print(f'Star 2:{max[-1]+max[-2]+max[-3]}')
+totals = sorted(totals, reverse=True)  # Sort descending
+
+print(f"Star 1:{totals[0]}")
+print(f"Star 2:{totals[0]+totals[1]+totals[2]}")
