@@ -17,3 +17,5 @@ Day 3 - [Rust](https://www.rust-lang.org/)
 Day 4 -
 
 Day 5 - [Javascript(Node)](https://nodejs.org/en/)
+
+Day 6 - [Ruby](https://www.ruby-lang.org/en/)
