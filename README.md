@@ -14,7 +14,7 @@ Day 2 - [Lua](https://www.lua.org/home.html)
 
 Day 3 - [Rust](https://www.rust-lang.org/)
 
-Day 4 -
+Day 4 - [R](https://www.r-project.org/)
 
 Day 5 - [Javascript(Node)](https://nodejs.org/en/)
 
